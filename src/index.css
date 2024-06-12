@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+     @font-face {
+          font-family: 'montserratBold';
+          src: local('montserratBold'), url('./assets/fonts/montserratBold.ttf') format('opentype');
+     }
+
+     @font-face {
+          font-family: 'Montserrat';
+          src: local('Montserrat'), url('./assets/fonts/Montserrat.ttf') format('opentype');
+     }
+
+     @font-face {
+          font-family: 'Playlist_Script';
+          src: local('Playlist_Script'), url('./assets/fonts/Playlist_Script.otf') format('opentype');
+     }
+
+     @font-face {
+          font-family: 'GlacialIndifference-Bold';
+          src: local('GlacialIndifference-Bold'), url('./assets/fonts/GlacialIndifference-Bold.otf') format('opentype');
+     }
+}
