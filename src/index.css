@@ -14,7 +14,7 @@
      }
 
      @font-face {
-          font-family: 'Playlist_Script';
+          font-family: 'playlistScript';
           src: local('Playlist_Script'), url('./assets/fonts/Playlist_Script.otf') format('opentype');
      }
 

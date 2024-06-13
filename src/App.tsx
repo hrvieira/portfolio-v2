@@ -1,22 +1,29 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/home/Home";
-import Header from "./components/header/Header";
 import FormContato from "./components/contato/FormContato";
+import Header from "./components/header/Header";
 import Projetos from "./components/projetos/Projetos";
 import SobreMim from "./components/sobremim/SobreMim";
+import Home from "./pages/home/Home";
 
 function App() {
     return (
         <>
-            <BrowserRouter>
-                <Header />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/contato" element={<FormContato />} />
-                    <Route path="/projetos" element={<Projetos />} />
-                    <Route path="/sobremim" element={<SobreMim />} />
-                </Routes>
-            </BrowserRouter>
+            <Header
+                links={[
+                    { titulo: "Projetos", href: "#projetos" },
+                    { titulo: "Sobre mim", href: "#sobremim" },
+                    { titulo: "Contato", href: "#contato" },
+                ]}
+            />
+            <Home />
+            <section id="projetos">
+                <Projetos />
+            </section>
+            <section id="sobremim">
+                <SobreMim />
+            </section>
+            <section id="contato">
+                <FormContato />
+            </section>
         </>
     );
 }
