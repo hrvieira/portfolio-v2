@@ -1,30 +1,27 @@
-import FormContato from "./components/contato/FormContato";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
+import Home from "./pages/home/Home";
 import Projetos from "./components/projetos/Projetos";
 import SobreMim from "./components/sobremim/SobreMim";
-import Home from "./pages/home/Home";
+import FormContato from "./components/contato/FormContato";
+import Footer from "./components/footer/Footer";
 
-function App() {
+const App: React.FC = () => {
     return (
-        <>
-            <Header
-                links={[
-                    { titulo: "Projetos", href: "#projetos" },
-                    { titulo: "Sobre mim", href: "#sobremim" },
-                    { titulo: "Contato", href: "#contato" },
-                ]}
-            />
-            <Home />
-            <section id="projetos">
-                <Projetos />
-            </section>
-            <section id="sobremim">
-                <SobreMim />
-            </section>
-            <section id="contato">
-                <FormContato />
-            </section>
-        </>
+        <div className="h-[100vh]">
+            <Router>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/projetos" element={<Projetos />} />
+                    <Route path="/sobremim" element={<SobreMim />} />
+                    <Route path="/contato" element={<FormContato />} />
+                </Routes>
+                <Footer />
+            </Router>
+        </div>
     );
-}
+};
+
 export default App;
