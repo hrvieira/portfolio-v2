@@ -47,28 +47,28 @@ function Home() {
                     isSticky ? "sticky top-0" : ""
                 }`}
             >
-                <ul className="fixed m-0 p-0 translate-y-10 top-[5rem]">
-                    <ol className="mx-[.5rem] my-[.2rem]">
+                <ul className="fixed m-0 p-0 translate-y-1 top-[5rem]">
+                    <li className="mx-[.5rem] my-[.5rem] px-[1px] bg-white rounded-lg drop-shadow-[0px_0px_1px_var(--tw-shadow-color)] shadow-[#525252]">
                         <a
                             href="https://www.linkedin.com/in/luizhrvieira/"
                             target="_blank"
                         >
                             <LinkedinLogo size={50} weight="bold" />
                         </a>
-                    </ol>
-                    <ol className="mx-[.5rem] my-[.2rem]">
+                    </li>
+                    <li className="mx-[.5rem] my-[.5rem] px-[1px] bg-white rounded-lg drop-shadow-[0px_0px_1px_var(--tw-shadow-color)] shadow-[#525252]">
                         <a href="https://github.com/hrvieira" target="_blank">
                             <GithubLogo size={50} weight="bold" />
                         </a>
-                    </ol>
-                    <ol className="mx-[.5rem] my-[.2rem]">
+                    </li>
+                    <li className="mx-[.5rem] my-[.5rem] px-[1px] bg-white rounded-lg drop-shadow-[0px_0px_1px_var(--tw-shadow-color)] shadow-[#525252]">
                         <a
                             href="mailto:luizhrvieira@outlook.com"
                             target="_blank"
                         >
                             <Envelope size={50} weight="bold" />
                         </a>
-                    </ol>
+                    </li>
                 </ul>
             </nav>
         </main>

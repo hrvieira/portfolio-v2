@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Menu from "../menu/Menu";
 
 interface Link {
@@ -11,11 +11,6 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ links }) => {
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
-
-    const toggleMobileMenu = () => {
-        setIsMobileMenuOpen(!isMobileMenuOpen);
-    };
 
     return (
         <header className="flex w-full items-center justify-around bg-black py-4 px-[2rem] shadow-neutral-900 text-white shadow-xl rounded-b-lg font-[montserratBold] mb-10">
@@ -25,8 +20,6 @@ const Header: React.FC<HeaderProps> = ({ links }) => {
                 </a>
                 <Menu
                     links={links}
-                    isMobileMenuOpen={isMobileMenuOpen}
-                    toggleMobileMenu={toggleMobileMenu}
                 />
             </div>
         </header>
