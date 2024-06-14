@@ -83,7 +83,7 @@ const Header: React.FC = () => {
     return (
         <>
             <header className="flex w-full items-center justify-around bg-black py-4 px-[2rem] shadow-neutral-900 text-white shadow-lg font-[montserratBold] mb-10">
-                <div className="flex w-[100%] sm:w-[90%] items-center justify-between" >
+                <div className="flex w-[100%] sm:w-[90%] items-center justify-between">
                     <Link
                         className="text-lg hover:text-gray-300"
                         id="inicio"
@@ -167,11 +167,12 @@ const Header: React.FC = () => {
                 </div>
             </header>
             <nav
-                className={`max-md:hidden fixed m-0 p-0 translate-y-10 top-[5rem] ${isSticky ? "sticky top-0" : ""
-                    }`}
+                className={`max-md:hidden fixed m-0 p-0 translate-y-10 top-[5rem] ${
+                    isSticky ? "sticky top-0" : ""
+                }`}
             >
                 <ul className="fixed m-0 p-0 translate-y-1 top-[5rem] text-black">
-                    <li className="mx-[.5rem] my-[.5rem] px-[1px] bg-white rounded-lg shadow-inner shadow-[#525252]">
+                    <li className="mx-[.5rem] my-[.5rem] px-[1px] bg-white rounded-lg shadow-inner shadow-[#525252] hover:drop-shadow-[0px_0px_3px_var(--tw-shadow-color)]">
                         <a
                             href="https://www.linkedin.com/in/luizhrvieira/"
                             target="_blank"
@@ -179,12 +180,12 @@ const Header: React.FC = () => {
                             <LinkedinLogo size={50} weight="bold" />
                         </a>
                     </li>
-                    <li className="mx-[.5rem] my-[.5rem] px-[1px] bg-white rounded-lg shadow-inner shadow-[#525252]">
+                    <li className="mx-[.5rem] my-[.5rem] px-[1px] bg-white rounded-lg shadow-inner shadow-[#525252] hover:drop-shadow-[0px_0px_3px_var(--tw-shadow-color)]">
                         <a href="https://github.com/hrvieira" target="_blank">
                             <GithubLogo size={50} weight="bold" />
                         </a>
                     </li>
-                    <li className="mx-[.5rem] my-[.5rem] px-[1px] bg-white rounded-lg shadow-inner shadow-[#525252]">
+                    <li className="mx-[.5rem] my-[.5rem] px-[1px] bg-white rounded-lg shadow-inner shadow-[#525252] hover:drop-shadow-[0px_0px_3px_var(--tw-shadow-color)]">
                         <a
                             href="mailto:luizhrvieira@outlook.com"
                             target="_blank"

@@ -6,7 +6,7 @@ function Footer() {
             <div className="container mx-auto text-center">
                 © {ano} Portfólio |{" "}
                 <a
-                    className="hover:underline"
+                    className="hover:underline hover:text-gray-300"
                     href="https://portfolio-vieira-dev.vercel.app/"
                 >
                     hrvieira.dev
