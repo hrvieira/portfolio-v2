@@ -6,12 +6,14 @@ import Projetos from "./components/projetos/Projetos";
 import SobreMim from "./components/sobremim/SobreMim";
 import FormContato from "./components/contato/FormContato";
 import Footer from "./components/footer/Footer";
+import { ToastContainer } from "react-toastify";
 
 const App: React.FC = () => {
     return (
         <div className="h-[100vh]">
             <Router>
                 <Header />
+                <ToastContainer />
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/projetos" element={<Projetos />} />
