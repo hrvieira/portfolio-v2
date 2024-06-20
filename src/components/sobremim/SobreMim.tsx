@@ -30,7 +30,7 @@ const SobreMim: React.FC = () => {
     return (
         <>
             {profile && (
-                <main className="flex justify-center">
+                <main className="flex justify-center mt-4">
                     <div className="w-[85%] flex max-lg:flex-col items-center py-3 gap-8">
                         <img
                             src="https://ik.imagekit.io/hrvieira/1710343495237.jpg"

@@ -18,18 +18,16 @@ function FormContato() {
     }, [state]);
 
     return (
-        <main className="min-h-[65dvh] flex justify-center">
+        <main className="min-h-[65dvh] flex justify-center mt-4">
             <section className="w-[100%] flex max-md:flex-col items-center justify-evenly">
                 <article className="w-[80%] md:w-[40%] max-md:mb-6">
                     <h3 className="text-[2rem] font-[montserratBold] drop-shadow-[0px_1px_var(--tw-shadow-color)] shadow-[#525252] text-center">
                         Me Contate
                     </h3>
-                    <p className="mb-1 font-sans text-[1.1rem] indent-8 text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Commodi similique esse fuga necessitatibus, iusto alias
-                        eius perferendis qui iste minima blanditiis repellendus
-                        distinctio dolor obcaecati aliquid quod quidem incidunt
-                        quibusdam!
+                    <p className="mb-1 font-sans text-[1.1rem] text-center">
+                        Está com aquele projeto incrível na cabeça, entrem em
+                        contato comigo e vamos fazer ele acontecer. Preencha o
+                        formulário e entrarei em contato o mais rápido possível!
                     </p>
                 </article>
                 <form
