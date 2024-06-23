@@ -30,7 +30,7 @@ const cards: Card[] = [
         deploy: "https://universe-react.vercel.app/",
     },
     {
-        imagem: "https://ik.imagekit.io/hrvieira/Portf%C3%B3lio/Beige%20Brown%20Aesthetic%20Save%20The%20Date%20Editable%20Mockup%20Instagram%20Post.png?updatedAt=1719100489486",
+        imagem: "https://ik.imagekit.io/hrvieira/Portf%C3%B3lio/Beige%20Brown%20Ahttps://ik.imagekit.io/hrvieira/Portf%C3%B3lio/blogpessoal.png?updatedAt=1719107224687",
         nome: "Blog Pessoal",
         descricao:
             "Projeto criado usando TypeScript, Nest, Jest, React e Tailwind. Criar um blog com Front end e Back end bem estruturado. Podendo fazer postagens com diversos temas.",
