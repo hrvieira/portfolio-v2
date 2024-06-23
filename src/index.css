@@ -19,6 +19,11 @@
      }
 
      @font-face {
+          font-family: 'glacialIndifference';
+          src: local('GlacialIndifference_Regular'), url('./assets/fonts/GlacialIndifference_Regular.otf') format('opentype');
+     }
+
+     @font-face {
           font-family: 'GlacialIndifference-Bold';
           src: local('GlacialIndifference-Bold'), url('./assets/fonts/GlacialIndifference-Bold.otf') format('opentype');
      }
