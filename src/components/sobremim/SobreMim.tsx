@@ -42,37 +42,27 @@ const SobreMim: React.FC = () => {
                                 Quem sou eu?
                             </h2>
                             <p className="mb-1 font-sans text-[1.1rem] indent-8">
-                                Oi, meu nome é Henrique, 31 anos, do Rio de
-                                Janeiro, mais especificamente cresci na Baixada
-                                Fluminense. Aprendi a ser responsável e
-                                determinado como filho de mãe solteira. Pai de
-                                um casal e percebi que o tempo é agora para
-                                mudar minha vida.
+                                Oi, sou Henrique, 31 anos, do Rio de Janeiro.
+                                Nascido e criado na Baixada Fluminense (RJ) com
+                                minha mãe solteira, o que me ensinou
+                                responsabilidade. Pai de um casal, decidi mudar
+                                minha vida, pois quero poder passar mais tempo
+                                com eles.
                             </p>
                             <p className="mb-1 font-sans text-[1.1rem] indent-8">
                                 {" "}
-                                Desde criança, tenho interesse em tecnologia.
-                                Aos 15 anos, trabalhei em uma lan house, onde
-                                aprendi sobre redes e hardware. Depois,
-                                trabalhei com CFTV, mas surgiu uma oportunidade
-                                na Educação Física e venho atuando como coach de
-                                cross há 4 anos.
+                                Sempre fui interessado em tecnologia. Aos 15
+                                anos, trabalhei em uma lan house e aprendi sobre
+                                redes e hardware. Depois, atuei com CFTV. Por opotunidade, migrei para Educação Física e atuo a 4 anos como coach de cross.
                             </p>
                             <p className="mb-1 font-sans text-[1.1rem] indent-8">
                                 {" "}
-                                Sempre mantive meu interesse em tecnologia e, em
-                                2022, tive meu primeiro contato com programação.
-                                Em 2023, participei do Projeto Desenvolve do
-                                Grupo Boticário, estudando na Alura por 6 meses.
-                                Atualmente, curso Análise e Desenvolvimento de
-                                Sistemas e estou na turma 04 JavaScript Full
-                                Stack da Generation Brasil. Aqui, aprendo desde
-                                a lógica de programação até o desenvolvimento
-                                back-end, front-end e banco dados. Além das
-                                habilidades técnicas, desenvolvo minhas soft
-                                skills, essenciais para o mercado de trabalho.
-                                Pratico diariamente para me manter atualizado e
-                                consolidar o aprendizado.
+                                Em 2022, comecei a estudar programação. Em 2023,
+                                participei do Projeto Desenvolve do Grupo
+                                Boticário, estudando na Alura e já criando alguns projetos para praticar o que ia aprendendo. No ínicio de 2024 comecei a cursar Análise e Desenvolvimento de Sistemas, além de ter participado da turma 04 JavaScript Full Stack da
+                                Generation Brasil. Onde tive a experiência de um trabalho remoto, estudando de 8 às 17 horas. Aprendo desde lógica de
+                                programação, back-end, front-end e banco de
+                                dados e desenvolver minhas soft skills, para me tornar o desenvolvedor que o mercado procura.
                             </p>
                             <p className="mb-1 font-sans text-[1.1rem]">
                                 Para saber mais sobre minha jornada, projetos e
