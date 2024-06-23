@@ -44,7 +44,7 @@ const SobreMim: React.FC = () => {
                             <p className="mb-1 font-sans text-[1.1rem] indent-8">
                                 Oi, meu nome é Henrique, 31 anos, do Rio de
                                 Janeiro, mais especificamente cresci na Baixada
-                                Fluminense. Aprendendi a ser responsável e
+                                Fluminense. Aprendi a ser responsável e
                                 determinado como filho de mãe solteira. Pai de
                                 um casal e percebi que o tempo é agora para
                                 mudar minha vida.
