@@ -7,7 +7,7 @@ function Footer() {
                 © {ano} Portfólio |{" "}
                 <a
                     className="hover:underline hover:text-gray-300"
-                    href="https://portfolio-vieira-dev.vercel.app/"
+                    href="https://hvieira.vercel.app/"
                 >
                     hrvieira.dev
                 </a>
