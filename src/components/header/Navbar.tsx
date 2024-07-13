@@ -22,16 +22,16 @@ interface NavItem {
 }
 
 const navItemsDesktop: NavItem[] = [
-    { to: "/projetos", label: "Projetos" },
-    { to: "/sobremim", label: "Sobre mim" },
-    { to: "/contato", label: "Contato" },
+    { to: "#projetos", label: "Projetos" },
+    { to: "#sobremim", label: "Sobre mim" },
+    { to: "#contato", label: "Contato" },
 ];
 
 const navItemsMobile: NavItem[] = [
-    { to: "/", label: "Início" },
-    { to: "/projetos", label: "Projetos" },
-    { to: "/sobremim", label: "Sobre mim" },
-    { to: "/contato", label: "Contato" },
+    { to: "#inicio", label: "Início" },
+    { to: "#projetos", label: "Projetos" },
+    { to: "#sobremim", label: "Sobre mim" },
+    { to: "#contato", label: "Contato" },
 ];
 
 const NavBar: React.FC<Props> = (props: Props) => {
@@ -110,12 +110,12 @@ const NavBar: React.FC<Props> = (props: Props) => {
                                             margin: "0px 0px 0px 0px",
                                         }}
                                     >
-                                        <Link
+                                        <a
                                             className="block normal-case p-2 hover:text-gray-300 font-[montserratBold] text-[1.2rem]"
-                                            to={item.to}
+                                            href={item.to}
                                         >
                                             {item.label}
-                                        </Link>
+                                        </a>
                                     </Button>
                                 ))}
                             </Box>

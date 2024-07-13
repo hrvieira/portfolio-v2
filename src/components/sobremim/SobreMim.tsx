@@ -30,7 +30,10 @@ const SobreMim: React.FC = () => {
     return (
         <>
             {profile && (
-                <main className="flex justify-center mt-4">
+                <section
+                    className="flex justify-center py-[6rem] bg-gradient-to-b from-slate-100 from-[5%] to-white to-[15%]"
+                    id="sobremim"
+                >
                     <div className="w-[85%] flex max-lg:flex-col items-center py-3 gap-8">
                         <img
                             src="https://ik.imagekit.io/hrvieira/1710343495237.jpg"
@@ -53,16 +56,25 @@ const SobreMim: React.FC = () => {
                                 {" "}
                                 Sempre fui interessado em tecnologia. Aos 15
                                 anos, trabalhei em uma lan house e aprendi sobre
-                                redes e hardware. Depois, atuei com CFTV. Por opotunidade, migrei para Educação Física e atuo a 4 anos como coach de cross.
+                                redes e hardware. Depois, atuei com CFTV. Por
+                                opotunidade, migrei para Educação Física e atuo
+                                a 4 anos como coach de cross.
                             </p>
                             <p className="mb-1 font-sans text-[1.1rem] indent-8">
                                 {" "}
                                 Em 2022, comecei a estudar programação. Em 2023,
                                 participei do Projeto Desenvolve do Grupo
-                                Boticário, estudando na Alura e já criando alguns projetos para praticar o que ia aprendendo. No ínicio de 2024 comecei a cursar Análise e Desenvolvimento de Sistemas, além de ter participado da turma 04 JavaScript Full Stack da
-                                Generation Brasil. Onde tive a experiência de um trabalho remoto, estudando de 8 às 17 horas. Aprendo desde lógica de
+                                Boticário, estudando na Alura e já criando
+                                alguns projetos para praticar o que ia
+                                aprendendo. No ínicio de 2024 comecei a cursar
+                                Análise e Desenvolvimento de Sistemas, além de
+                                ter participado da turma 04 JavaScript Full
+                                Stack da Generation Brasil. Onde tive a
+                                experiência de um trabalho remoto, estudando de
+                                8 às 17 horas. Aprendo desde lógica de
                                 programação, back-end, front-end e banco de
-                                dados e desenvolver minhas soft skills, para me tornar o desenvolvedor que o mercado procura.
+                                dados e desenvolver minhas soft skills, para me
+                                tornar o desenvolvedor que o mercado procura.
                             </p>
                             <p className="mb-1 font-sans text-[1.1rem]">
                                 Para saber mais sobre minha jornada, projetos e
@@ -86,7 +98,7 @@ const SobreMim: React.FC = () => {
                             </div>
                         </article>
                     </div>
-                </main>
+                </section>
             )}
         </>
     );

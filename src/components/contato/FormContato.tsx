@@ -18,7 +18,7 @@ function FormContato() {
     }, [state]);
 
     return (
-        <main className="min-h-[65dvh] flex justify-center mt-4">
+        <section className="min-h-[65dvh] flex justify-center mt-4" id="contato">
             <section className="w-[100%] flex max-md:flex-col items-center justify-evenly">
                 <article className="w-[80%] md:w-[40%] max-md:mb-6">
                     <h3 className="text-[2rem] font-[montserratBold] drop-shadow-[0px_1px_var(--tw-shadow-color)] shadow-[#525252] text-center">
@@ -99,7 +99,7 @@ function FormContato() {
                     </button>
                 </form>
             </section>
-        </main>
+        </section>
     );
 }
 

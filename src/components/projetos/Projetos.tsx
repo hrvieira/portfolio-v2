@@ -47,10 +47,13 @@ const cards: Card[] = [
 
 function Projetos() {
     return (
-        <main className="my-4 w-full">
-            <div className="grid max-mobile:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-3 lg:grid-cols-4 gap-4 w-[90%] mx-auto">
+        <section className="py-3 w-full bg-slate-100" id="projetos">
+            <h2 className="text-[2rem] font-[montserratBold] text-center my-4 drop-shadow-[1px_1px_var(--tw-shadow-color)] shadow-[#525252]">
+                Projetos
+            </h2>
+            <div className="grid max-mobile:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-3 lg:grid-cols-4 gap-4 w-[90%] mx-auto">  
                 {cards.map((card) => (
-                    <div className="flex flex-col mt-6 shadow-md hover:shadow-2xl transition duration-500 rounded-2xl place-items-center border-2 ">
+                    <div className="flex flex-col mt-4 mb-2 shadow-md hover:shadow-2xl transition duration-500 rounded-2xl place-items-center border-2">
                         <img
                             className="rounded-t-xl shadow-lg box-border"
                             src={card.imagem}
@@ -77,7 +80,7 @@ function Projetos() {
                     </div>
                 ))}
             </div>
-        </main>
+        </section>
     );
 }
 
